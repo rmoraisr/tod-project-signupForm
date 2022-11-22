@@ -29,6 +29,25 @@
     width: 40vw;
 }
 
+.logo {
+    height: auto;
+    padding: 1rem 0;
+    background-color: var(--color);
+    opacity: 60%;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#img-logo {
+    width: 5rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
 
 .content {
     display: flex;
@@ -36,6 +55,10 @@
     justify-content: center;
     margin-top: 20vh;
     margin-left: 2rem;
+}
+
+.dummy-text p {
+    margin-bottom: 1rem;
 }
 
 .form {
@@ -46,6 +69,8 @@
     gap: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    justify-content: center;
+    width: 90%;
 }
 
 .input {
@@ -56,6 +81,11 @@
     text-transform: uppercase;
     opacity: 50%;
     margin-left: 0.5rem;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #c67194;
 }
 
 .btn {
@@ -81,7 +111,8 @@ button:hover {
     gap: 0.5rem;
 }
 
-.bkg-img-credits, footer {
+.bkg-img-credits,
+footer {
     margin-top: auto;
     align-self: center;
     margin-bottom: 0.5rem;
